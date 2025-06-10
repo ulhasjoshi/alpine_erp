@@ -1,0 +1,27 @@
+{
+  "title": "Roles",
+  "columns": [
+    {
+      "name": "name",
+      "label": "Role"
+    },
+    {
+      "name": "description",
+      "label": "Description"
+    },
+    {
+      "name": "default_page",
+      "label": "Default Page"
+    },
+    {
+      "name": "created_at",
+      "label": "Created At"
+    }
+  ],
+  "actions": {
+    "can_create": true,
+    "can_edit": true,
+    "can_delete": true
+  },
+  "search": ["name", "description"]
+}

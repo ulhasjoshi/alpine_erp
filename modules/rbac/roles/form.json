@@ -1,0 +1,24 @@
+{
+  "title": "Role",
+  "fields": [
+    {
+      "name": "name",
+      "label": "Role Name",
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "textarea"
+    },
+    {
+      "name": "default_page",
+      "label": "Default Page",
+      "type": "text",
+      "hint": "e.g., dashboard or module/submodule"
+    }
+  ],
+  "audit": true
+}

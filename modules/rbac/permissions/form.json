@@ -1,0 +1,51 @@
+{
+  "title": "Permission",
+  "fields": [
+    {
+      "name": "role_id",
+      "label": "Role",
+      "type": "select",
+      "source": "table:rbac/roles:id,name",
+      "required": true
+    },
+    {
+      "name": "module",
+      "label": "Module",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "submodule",
+      "label": "Submodule",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "can_create",
+      "label": "Can Create",
+      "type": "checkbox"
+    },
+    {
+      "name": "can_read",
+      "label": "Can Read",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "can_update",
+      "label": "Can Update",
+      "type": "checkbox"
+    },
+    {
+      "name": "can_delete",
+      "label": "Can Delete",
+      "type": "checkbox"
+    },
+    {
+      "name": "can_export",
+      "label": "Can Export",
+      "type": "checkbox"
+    }
+  ],
+  "audit": true
+}

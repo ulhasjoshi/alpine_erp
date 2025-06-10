@@ -1,0 +1,33 @@
+{
+  "title": "Users",
+  "columns": [
+    {
+      "name": "name",
+      "label": "Full Name"
+    },
+    {
+      "name": "email",
+      "label": "Email"
+    },
+    {
+      "name": "role_id",
+      "label": "Role",
+      "source": "table:rbac/roles:id,name"
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "source": "picklist:user_status"
+    },
+    {
+      "name": "created_at",
+      "label": "Created At"
+    }
+  ],
+  "actions": {
+    "can_create": true,
+    "can_edit": true,
+    "can_delete": true
+  },
+  "search": ["name", "email"]
+}

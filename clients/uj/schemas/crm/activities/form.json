@@ -1,0 +1,25 @@
+[
+    {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+    },
+    {
+        "name": "status",
+        "label": "Status",
+        "type": "select",
+        "source": "picklist:status"
+    },
+    {
+        "name": "created_at",
+        "label": "Created At",
+        "type": "datetime",
+        "hidden": true
+    },
+    {
+        "name": "updated_at",
+        "label": "Updated At",
+        "type": "datetime",
+        "hidden": true
+    }
+]

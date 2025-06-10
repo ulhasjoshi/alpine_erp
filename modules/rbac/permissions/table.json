@@ -1,0 +1,44 @@
+{
+  "title": "Permissions",
+  "columns": [
+    {
+      "name": "role_id",
+      "label": "Role",
+      "source": "table:rbac/roles:id,name"
+    },
+    {
+      "name": "module",
+      "label": "Module"
+    },
+    {
+      "name": "submodule",
+      "label": "Submodule"
+    },
+    {
+      "name": "can_create",
+      "label": "Create"
+    },
+    {
+      "name": "can_read",
+      "label": "Read"
+    },
+    {
+      "name": "can_update",
+      "label": "Update"
+    },
+    {
+      "name": "can_delete",
+      "label": "Delete"
+    },
+    {
+      "name": "can_export",
+      "label": "Export"
+    }
+  ],
+  "actions": {
+    "can_create": true,
+    "can_edit": true,
+    "can_delete": true
+  },
+  "search": ["module", "submodule"]
+}

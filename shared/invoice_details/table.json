@@ -1,0 +1,15 @@
+[
+  { "name": "id", "label": "ID", "type": "number" },
+  { "name": "invoice_id", "label": "Invoice ID", "type": "number" },
+  { "name": "product_id", "label": "Product ID", "type": "number" },
+  { "name": "quantity", "label": "Quantity", "type": "number" },
+  { "name": "rate", "label": "Rate", "type": "number" },
+  { "name": "amount", "label": "Amount", "type": "number" },
+  { "name": "tax", "label": "Tax", "type": "number" },
+  { "name": "total", "label": "Total", "type": "number" },
+  { "name": "created_at", "label": "Created At", "type": "date" },
+  { "name": "created_by", "label": "Created By", "type": "text" },
+  { "name": "updated_at", "label": "Updated At", "type": "date" },
+  { "name": "updated_by", "label": "Updated By", "type": "text" },
+  { "name": "is_deleted", "label": "Deleted", "type": "select", "options": ["No", "Yes"] }
+]

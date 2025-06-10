@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Expenses",
+        "module": "expenses"
+    },
+    {
+        "label": "Hr",
+        "module": "hr"
+    }
+]

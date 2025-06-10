@@ -1,0 +1,15 @@
+[
+  { "name": "id", "label": "ID", "type": "number" },
+  { "name": "name", "label": "Product Name", "type": "text" },
+  { "name": "sku", "label": "SKU", "type": "text" },
+  { "name": "category", "label": "Category", "type": "text" },
+  { "name": "price", "label": "Price", "type": "number" },
+  { "name": "unit", "label": "Unit", "type": "text" },
+  { "name": "tax_rate", "label": "Tax Rate (%)", "type": "number" },
+  { "name": "status", "label": "Status", "type": "select", "options": ["Active", "Inactive"] },
+  { "name": "created_at", "label": "Created At", "type": "date" },
+  { "name": "created_by", "label": "Created By", "type": "text" },
+  { "name": "updated_at", "label": "Updated At", "type": "date" },
+  { "name": "updated_by", "label": "Updated By", "type": "text" },
+  { "name": "is_deleted", "label": "Deleted", "type": "select", "options": ["No", "Yes"] }
+]

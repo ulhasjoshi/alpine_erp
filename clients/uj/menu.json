@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Crm",
+        "module": "crm"
+    },
+    {
+        "label": "Dashboard",
+        "module": "dashboard"
+    },
+    {
+        "label": "Invoicing",
+        "module": "invoicing"
+    }
+]

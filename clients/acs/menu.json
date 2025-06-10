@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Costing",
+        "module": "costing"
+    },
+    {
+        "label": "Inventory",
+        "module": "inventory"
+    },
+    {
+        "label": "Invoicing",
+        "module": "invoicing"
+    },
+    {
+        "label": "Production",
+        "module": "production"
+    },
+    {
+        "label": "Purchase",
+        "module": "purchase"
+    },
+    {
+        "label": "Qc",
+        "module": "qc"
+    }
+]
